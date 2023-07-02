@@ -1,9 +1,9 @@
 class LL{
     Node head;
     class Node{
-        String data;
+        String data;  //create node
         Node next;
-        Node(String data){
+        Node(String data){   //node constructor
             this.data=data;
             this.next=null;
         }
@@ -42,7 +42,7 @@ class LL{
         System.out.println("Null");
     }
     public static void main(String args[]){
-        LL list=new LL();
+        LL list=new LL();  // class initialize
         list.addFirst("a");
         list.addFirst("is");
         list.printList();
